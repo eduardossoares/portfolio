@@ -3,7 +3,7 @@
 Este é um simples portfólio pessoal desenvolvido utilizando JavaScript e Tailwind CSS.
 
 ## Layout:
-![Screenshot_3](https://github.com/eduardossoares/menu/assets/128731192/388cb6a1-dcd6-40fe-8858-78d3a095ce9f)
+![image](https://github.com/eduardossoares/portfolio/assets/128731192/49df9b1d-4c6a-41f0-8eb5-f2addc2725a4)
 
 ## Funcionalidades
 

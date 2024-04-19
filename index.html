@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Tailwind -->
+    <link rel="stylesheet" href="./styles/output.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles/style.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Scroll Reveal -->
+    <script defer src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- JavaScript -->
+    <script defer src="script/script.js"></script>
+
+
+    <title>Meu Portfólio</title>
+</head>
+
+<body
+    class="animate-[transitionBg_5s_ease-in_infinite_alternate-reverse] bg-500% bg-gradient-to-tl from-bg-color-two to-bg-color-one min-h-[100vh] bg-fixed font-main">
+    <header id="my-header" class="top-header">
+        <nav id="navbar" class="transition ease-in-out delay-150 bg-header-color duration-300 hidden fixed top-[-15px] z-50 w-[100vw] h-[8%] text-white md:block">
+            <ul class="flex flex-row justify-center font-normal text-2xl p-8 md:gap-20 lg:gap-32">
+
+                <li id="after"
+                    class="hover:scale-105 duration-150 after:content-[''] after:absolute after:bg-white after:h-[3px] after:w-0 after:left-0 after:bottom-[-10px] after:transition-[0.3s] after:hover:w-[100%]">
+                    <a href="#home">Início</a>
+                </li>
+
+                <li id="after"
+                    class="hover:scale-105 duration-150 after:content-[''] after:absolute after:bg-white after:h-[3px] after:w-0 after:left-0 after:bottom-[-10px] after:transition-[0.3s] after:hover:w-[100%]">
+                    <a href="#techs">Stacks</a>
+                </li>
+
+                <li  id="after"
+                    class="hover:scale-105 duration-150 after:content-[''] after:absolute after:bg-white after:h-[3px] after:w-0 after:left-0 after:bottom-[-10px] after:transition-[0.3s] after:hover:w-[100%]">
+                    <a href="#projects-section">Projetos</a>
+                </li>
+
+                <li id="after"
+                    class="hover:scale-105 duration-150 after:content-[''] after:absolute after:bg-white after:h-[3px] after:w-0 after:left-0 after:bottom-[-10px] after:transition-[0.3s] after:hover:w-[100%]">
+                    <a href="#contacts">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div id="texts" class="invisible z-0 text-center text-white font-semibold pt-32 md:pt-96 xl:pt-[26rem]">
+
+            <span id="name" class="font-light text-5xl after:block after:m-auto after:content-[''] after:bg-white after:w-60 after:h-[1px] after:mt-24
+            md:after:content-[]">Olá, eu <br class="md:hidden">sou o <br class="md:hidden"><span
+                    class="font-semibold">Eduardo!</span></span>
+
+            <h1 id="frontend" class="text-5xl font-normal mt-20 mb-20 md:mb-10 md:mt-4 md:text-7xl after:block after:m-auto after:content-[''] after:bg-white after:w-60 after:h-[1px] after:mt-24
+                md:after:content-[]"> Desenvolvedor<br class="lg:hidden"> <span class="font-semibold">Frontend</span>
+            </h1>
+
+            <span id="quote" class="font-extralight"><span class="font-semibold">Apaixonado</span> por criar<br
+                    class="md:hidden">
+                <span class="font-normal">experiências digitais memoráveis.</span></span>
+        </div>
+    </section>
+
+
+
+    <section id="techs-section" class="min-h-[100vh]">
+        <div id="techs" class="text-center pt-80">
+            <h1 class="text-white text-4xl">&lt;/Tecnologias&gt;</h1>
+
+            <div
+                class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:max-w-[70vw] lg:m-auto lg:pt-16 xl:max-w-[60vw] 2xl:max-w-[50vw] mt-16 gap-y-10">
+
+                <div
+                    class="flex justify-center flex-col items-center gap-4 hover:scale-110 duration-150 cursor-default">
+                    <img class="w-16 to-white" src="assets/html5.svg">
+                    <span class="cursor-default text-white text-xl">HTML5</span>
+                </div>
+
+                <div
+                    class="flex justify-center flex-col items-center gap-4 hover:scale-110 duration-150 cursor-default">
+                    <img class="w-16 to-white" src="assets/css3-alt.svg">
+                    <span class="text-white text-xl">CSS3</span>
+                </div>
+
+                <div
+                    class="flex justify-center flex-col items-center gap-4 hover:scale-110 duration-150 cursor-default">
+                    <img class="w-16 to-white" src="assets/js.svg">
+                    <span class="text-white justify-self-end text-xl">JavaScript</span>
+                </div>
+
+                <div
+                    class="flex justify-center flex-col items-center gap-4 hover:scale-110 duration-150 cursor-default">
+                    <img class="w-16 to-white" src="assets/Typescript_logo_2020.svg.png">
+                    <span class="text-white text-xl">TypeScript</span>
+                </div>
+
+                <div
+                    class="flex justify-center flex-col items-center gap-4 hover:scale-110 duration-150 cursor-default">
+                    <img class="w-16 to-white" src="assets/sass.svg">
+                    <span class="text-white mt-6 text-xl">SASS</span>
+                </div>
+
+                <div
+                    class="flex justify-center flex-col items-center gap-4 hover:scale-110 duration-150 cursor-default">
+                    <img class="w-16 to-white" src="assets/tailwind_icon_131947.png">
+                    <span class="text-white text-xl">Tailwind</span>
+                </div>
+
+                <div
+                    class="flex justify-center flex-col items-center gap-4 hover:scale-110 duration-150 cursor-default">
+                    <img class="w-16 to-white" src="assets/git.svg.png">
+                    <span class="text-white mt-4 text-xl">Git</span>
+                </div>
+
+                <div
+                    class="flex justify-center flex-col items-center gap-4 hover:scale-110 duration-150 cursor-default">
+                    <img class="w-16 to-white" src="assets/github.svg">
+                    <span class="text-white text-xl">Github</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="projects-section" class="min-h-[100vh] pt-36">
+        <h1 id="projects-text" class="text-white text-center pb-24 text-4xl">&lt;/Projetos&gt;</h1>
+
+        <div class="flex flex-col items-center">
+            <div id="projects"
+                class="flex flex-col text-center gap-14 md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                <div id="menu" class="hover:scale-110 duration-200">
+                    <h2 class="text-white text-xl">Cardápio Menu</h2>
+                    <span class="text-white">Tecnologias Utilizadas: </span>
+                    <a href="https://eduardossoares.github.io/menu-cardapio/" target="_blank">
+                        <div class="relative mt-8">
+                            <div class="w-64 h-96 bg-[url('/assets/menu.png')] rounded-3xl bg-cover"></div>
+                            <div class="absolute inset-0 bg-black opacity-50 rounded-3xl"></div>
+                            <div class="absolute inset-0 flex flex-col items-center justify-center gap-10">
+                                <div class="flex flex-row gap-2 absolute top-[-14px]">
+                                    <img src="assets/js.svg" alt="" class="w-8">
+                                    <img src="assets/tailwind_icon_131947.png" alt="" class="w-8">
+                                </div>
+                                <span class="text-white text-4xl font-bold">Acesse o Deploy</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div id="forecast" class="mt-20 md:mt-0 hover:scale-110 duration-200">
+                    <h2 class="text-white text-xl">Forecast Climático</h2>
+                    <span class="text-white">Tecnologias Utilizadas: </span>
+                    <a href="https://eduardossoares.github.io/forecast/" target="_blank">
+                        <div class="relative mt-8">
+                            <div class="w-64 h-96 bg-[url('/assets/forecast.png')] rounded-3xl bg-cover"></div>
+                            <div class="absolute inset-0 bg-black opacity-50 rounded-3xl"></div>
+                            <div class="absolute inset-0 flex flex-col items-center justify-center gap-10">
+                                <div class="flex flex-row gap-2 absolute top-[-14px]">
+                                    <img src="assets/js.svg" alt="" class="w-8">
+                                    <img src="assets/tailwind_icon_131947.png" alt="" class="w-8">
+                                </div>
+                                <span class="text-white text-4xl font-bold">Acesse o Deploy</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div id="barbershop" class="mt-20 lg:mt-0 hover:scale-110 duration-200">
+                    <h2 class="text-white text-xl">Landingpage Barbershop</h2>
+                    <span class="text-white">Tecnologias Utilizadas: </span>
+                    <a href="https://eduardossoares.github.io/landingpage-barbearia/" target="_blank">
+                        <div class="relative mt-8">
+                            <div class="w-64 h-96 bg-[url('/assets/barbershop.png')] rounded-3xl bg-cover bg-center">
+                            </div>
+                            <div class="absolute inset-0 bg-black opacity-50 rounded-3xl"></div>
+                            <div class="absolute inset-0 flex flex-col items-center justify-center gap-10">
+                                <div class="flex flex-row gap-2 absolute top-[-14px]">
+                                    <img src="assets/html5.svg" alt="" class="w-8">
+                                    <img src="assets/js.svg" alt="" class="w-8">
+                                    <img src="assets/css3-alt.svg" alt="" class="w-8">
+                                </div>
+                                <span class="text-white text-4xl font-bold">Acesse o Deploy</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div id="capture-page" class="mt-20 xl:hidden hover:scale-110 duration-200">
+                    <h2 class="text-white text-xl">Página de Captura</h2>
+                    <span class="text-white">Tecnologias Utilizadas: </span>
+                    <a href="https://eduardossoares.github.io/pagina-de-captura-responsiva/" target="_blank">
+                        <div class="relative mt-8">
+                            <div class="w-64 h-96 bg-[url('/assets/capture-page.png')] rounded-3xl bg-cover bg-center">
+                            </div>
+                            <div class="absolute inset-0 bg-black opacity-50 rounded-3xl"></div>
+                            <div class="absolute inset-0 flex flex-col items-center justify-center gap-10">
+                                <div class="flex flex-row gap-2 absolute top-[-14px]">
+                                    <img src="assets/html5.svg" alt="" class="w-8">
+                                    <img src="assets/css3-alt.svg" alt="" class="w-8">
+                                </div>
+                                <span class="text-white text-4xl font-bold">Acesse o Deploy</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div id="to-do-list" class="mt-20 xl:mt-0 hover:scale-110 duration-200">
+                    <h2 class="text-white text-xl">Lista de Afazeres</h2>
+                    <span class="text-white">Tecnologias Utilizadas: </span>
+                    <a href="https://eduardossoares.github.io/to-do-list/" target="_blank">
+                        <div class="relative mt-8">
+                            <div class="w-64 h-96 bg-[url('/assets/to-do-list.png')] rounded-3xl bg-cover bg-center">
+                            </div>
+                            <div class="absolute inset-0 bg-black opacity-50 rounded-3xl"></div>
+                            <div class="absolute inset-0 flex flex-col items-center justify-center gap-10">
+                                <div class="flex flex-row gap-2 absolute top-[-14px]">
+                                    <img src="assets/html5.svg" alt="" class="w-8">
+                                    <img src="assets/js.svg" alt="" class="w-8">
+                                    <img src="assets/sass.svg" alt="" class="w-8">
+                                </div>
+                                <span class="text-white text-4xl font-bold">Acesse o Deploy</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+    </section>
+
+    <section class="h-[80vh] pt-80 md:h-[100vh] xl:pt-36 xl:h-[70vh]" id="contacts">
+        <div id="contact-text" class="text-center">
+            <h1 id="contato" class="text-white text-4xl text-center">&lt;/Contato&gt;</h1>
+            <span class="text-white">Clique para acessar</span>
+        </div>
+
+        <div class="mt-16 flex flex-col justify-center items-center md:flex-row md:items-start md:gap-x-24">
+
+            <div id="linkedin" class="text-center hover:scale-110 duration-200">
+                <a href="https://www.linkedin.com/in/eduardo-da-silva-soares/" target="_blank">
+                    <span class="text-white text-2xl">LinkedIn</span>
+                    <img src="assets/linkedin.png" class="w-28 mt-4 mb-20 md:mb-0" alt="">
+                </a>
+            </div>
+
+            <div id="cv" class="text-center hover:scale-110 duration-200">
+                <a href="https://drive.google.com/file/d/16z4zeAKDRJC2FVFSILOL8KrO7ZDYpkE6/view" target="_blank">
+                    <span class="text-white text-2xl">Currículo</span>
+                    <img src="assets/file-solid.png" class="w-24 mt-4 mb-20 md:mb-0" alt="">
+                </a>
+            </div>
+
+            <div id="github-img" class="text-center hover:scale-110 duration-200">
+                <a href="https://github.com/eduardossoares" target="_blank">
+                    <span class="text-white text-2xl">Github</span>
+                    <img src="assets/github.svg" class="w-28 mt-4 mb-20 md:mb-0" alt="">
+                </a>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>

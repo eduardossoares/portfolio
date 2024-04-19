@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#menu-id {
+    background-image: url('../assets/menu.png');
+}
+
+#forecast-id {
+    background-image: url('../assets/forecast.png');
+}
+
+#barbershop-id {
+    background-image: url('../assets/barbershop.png');
+}
+
+#to-do-list-id {
+    background-image: url('../assets/to-do-list.png');
+}
+
+#capture-page-id {
+    background-image: url('../assets/capture-page.png');
+}

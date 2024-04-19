@@ -1,18 +1,5 @@
 const texts = document.querySelector('#texts')
 
-window.addEventListener('scroll', () => {
-    const navbar = document.querySelector('#navbar')
-    const afters = document.querySelectorAll('#after')
-
-    navbar.classList.toggle('bg-white', window.scrollY > 0)
-    navbar.classList.toggle('text-bg-color-one', window.scrollY > 0)
-    navbar.classList.toggle('top-[-10px]', window.screenY > 0)
-    navbar.classList.toggle('h-[9%]', window.screenY > 0)
-
-    
-
-})
-
 const reveal = () => {
     window.revelar = ScrollReveal({ reset: true })
 
